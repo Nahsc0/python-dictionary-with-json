@@ -1,46 +1,44 @@
 # Python Dictionary App
 
-The Python Dictionary App is a simple command-line application that allows users to look up words and receive their corresponding definitions.
+The Python Dictionary App is a simple application that allows users to add and search for words and their definitions. It provides a graphical user interface (GUI) for easy interaction.
 
-## Functionality
+## Features
 
-- Accepts user input to look up words in the dictionary.
-- Displays definitions for the entered word(s).
-- Handles non-existent words and provides appropriate messages.
-- Allows graceful exit from the application.
+- Add words with their respective definitions.
+- Search for words and retrieve their definitions.
+- Delete words from the dictionary.
+- Save words and definitions as a JSON file.
+- Alert for existing saved words when starting the app.
+
+## Prerequisites
+
+- Python 3.x installed on your machine.
+- Tkinter library installed (usually included with Python).
 
 ## Usage
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/your-username/Python-Dictionary-App.git
+   ```shell
+   git clone https://github.com/Nahsc0/python-dictionary-with-json
+2. Install the required dependencies:
 
-How to Use
-Clone this repository to your local machine or download the source code as a ZIP file.
+   cd dictionary_app
 
-Make sure you have Python 3 installed on your computer.
+3. Run the application:
+<!-- ```shell -->
 
-Navigate to the project directory using the terminal.
+python dictionary_app.py
 
-Create a "dictionary.json" file in the same directory as the script with the following format:
 
-{
-    "apple": ["A fruit with red or yellow or green skin and sweet to tart crisp whitish flesh"],
-    "banana": ["An elongated curved fruit"],
-    "chocolate": ["A food made from roasted ground cacao beans"],
-    // Add more words and their definitions as needed
-}
+## Usage
+Launch the application. You will be presented with a graphical user interface.
 
-Run the app by executing the following command in the terminal:
-    python dictionary_app.py
-Enter a word you want to look up, and the app will display its definition(s) if found in the dictionary. If the word is not found, the app will inform you accordingly.
+To add a word, enter the word and its definition in the respective entry fields and click the "Add" button.
 
-To exit the app, type 'exit' or 'quit'.
+To search for a word, enter the word in the entry field and click the "Search" button. The definition will be displayed if the word is found.
 
-Contributing
-If you would like to contribute to this project, you can:
+To delete a saved word, enter the word in the entry field and click the "Delete" button. A confirmation prompt will appear, and the word will be removed if confirmed.
 
-Report any issues or bugs by opening a GitHub issue.
-
-Submit a pull request with improvements or new features.
+## Contributing
+Contributions are welcome! If you have any suggestions, improvements, or bug fixes, please submit a pull request.
